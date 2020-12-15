@@ -1,3 +1,41 @@
 .body{
     background-color: #211F1F;
 }
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: orange;
+    justify-content: space-between;
+}
+.nav__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.controlpanel{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #413e3e;
+    height: 10%;
+}
+.controlpanel__image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1%;
+    
+}
+.controlpanel__image--one{
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.controlpanel__image--two{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.controlpanel__image--three{
+    padding-left: 2%;
+    padding-right: 2%;
+}
